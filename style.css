@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgreen;
+  color: hotpink;
+  font-family: georgia;
+}
+
+h1 {
+  color: black;
+  border: 2px black solid;
+  font-size: 3rem;
+  font-weight: 300;
+  font-style: italic;
+  text-decoration: underline;
+}
