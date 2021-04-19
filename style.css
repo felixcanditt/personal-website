@@ -4,6 +4,16 @@
   font-family: sans-serif;
 }
 
+body {
+  display: grid;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+main {
+  display: grid;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -11,16 +21,76 @@ ul {
   display: flex;
 }
 
+nav {
+  padding-left: 40px;
+}
+
+.nav {
+  margin: 10px;
+  background-color: #5caba0;
+  padding: 5px;
+  border-radius: 10px;
+  color: #f4f4f4;
+}
+
+header {
+  background-color: #588c94;
+  padding-bottom: 20px;
+}
+
+h1 {
+  padding-left: 30px;
+  color: #f4f4f4;
+  font-family: Snell Roundhand, cursive;
+}
+
+h2 {
+  font-family: Snell Roundhand, cursive;
+}
+
+.skills-interests {
+  background-color: #5caba0;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
 .my-tags {
-  display: flex;
   justify-content: space-around;
 }
 
 .my-tags-item {
-  border: 2px red solid;
+  background-color: #84d4e0;
+  padding: 5px;
+  border-radius: 10px;
 }
 
-.nav {
-  border: 2px red solid;
-  margin: 10px;
+#contact {
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+.find-me-section {
+  padding-left: 30px;
+}
+
+#about-me {
+  background-color: #5caba0;
+  padding-left: 30px;
+}
+
+.cv-title {
+  padding-left: 30px;
+}
+
+td {
+  padding: 20px;
+}
+
+.find-me-items {
+  margin: 20px;
+}
+
+footer {
+  background-color: #588c94;
+  padding-left: 30px;
 }
